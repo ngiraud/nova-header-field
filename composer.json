@@ -1,13 +1,22 @@
 {
-    "name": "ngiraud/form-header",
-    "description": "A Laravel Nova field.",
+    "name": "ngiraud/nova-header-field",
+    "description": "Simple field to add a header to separate panels in the form.",
     "keywords": [
         "laravel",
         "nova"
     ],
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Nicolas Giraud",
+            "email": "contact@ngiraud.me",
+            "homepage": "https://www.nicolasgiraud.fr",
+            "role": "Developer"
+        }
+    ],
     "require": {
-        "php": ">=7.1.0"
+        "php": ">=7.1.0",
+        "laravel/nova": "*"
     },
     "autoload": {
         "psr-4": {
